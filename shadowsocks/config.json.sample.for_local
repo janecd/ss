@@ -1,0 +1,28 @@
+{
+	"server": ["101.10.10.10","102.10.10.10"],
+	"server_info":
+		{
+			"101.10.10.10": "server_1_info",
+			"102.10.10.10": "server_2_info"
+		},
+	"server_port": [1990,1991,1992,1993],
+	"port_password":
+		{
+			"1990":"fuckGFW",
+			"1991":"shishibaGFW",
+			"1992":"helloworld",
+			"1993":"GFWshit"
+		},
+	"local_address":"0.0.0.0",
+	"method":"aes-256-cfb1",
+	"log":
+	{
+		"log_enable":"False",
+		"log_path":"/some/path/to/the/log"
+	},
+	"forbid":
+	{
+		"site":['youtube','fuck'],
+		"port":[110]
+	}
+}

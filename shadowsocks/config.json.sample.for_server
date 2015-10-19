@@ -1,0 +1,20 @@
+{
+    "port_password":
+    {
+        "1990":"fuckGFW",
+        "1991":"shishibaGFW",
+        "1992":"helloworld",
+        "1993":"GFWshit"
+    },
+	"method":"aes-256-cfb8",
+	"log":
+		{
+		"log_enable":"False",
+		"log_path":"/tmp/ss.log"
+	},
+	"forbid":
+		{
+		"site":["youtube"],
+		"port":[110]
+	}
+}
