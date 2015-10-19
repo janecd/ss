@@ -1,7 +1,6 @@
 #### 说明
 ---
-这个项目的代码，不建议使用setup.py来进行安装，直接进入shadowsocks目录，  
-运行local.py或者server.py即可
+直接进入shadowsocks目录,运行local.py或者server.py即可
 
 
 ### 用法
@@ -15,7 +14,8 @@
 2.
 
     在本地，拷贝config.json.sample.for_local并复制一份放在和config.json.sample.for_local  
-    相同的路径下，重命名为config.json。修改里面的{"server","port_password","server_port","server_info"}  
+    相同的路径下，重命名为config.json。  
+    修改里面的{"server","port_password","server_port","server_info"}  
     ，但是注意哦，需要把{"port_password"}保持和VPS里面的信息一致。
 3.
 
